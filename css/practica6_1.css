@@ -34,3 +34,18 @@ a:hover{
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
+
+#left_section{
+	float: left;
+	width: 410px;
+}
+
+#middle_section{
+	float: left;
+	width: 180px;
+}
+
+#right_section{
+	float: right;
+	width: 322px;
+}

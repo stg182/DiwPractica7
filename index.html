@@ -21,15 +21,20 @@ function clearText(field)
 </script>
 </head>
 <body>
-   
+   <div id="wrapper">
+    <div class="cabecera">
+        <div id="logo">
             	<h1>Magazine Style</h1>
                 <h2>new way of thinking for your life</h2>
            	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
-            	<form action="index.html" method="post">
+        </div><!-- end logo -->
+            	<div id="search">
+                <form action="index.html" method="post">
     	            	<input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
         	            <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
 			  </form>
-                
+              </div><!-- end search -->
+              <div id="menu">
        		  		<ul>
 		                <li><a href="index.html"  class="current">Home</a></li>
         		        <li><a href="#">Articles</a></li>
@@ -39,10 +44,11 @@ function clearText(field)
                 		<li><a href="#">About Us</a></li>  
                         <li><a href="#">Contact</a></li>   
               		</ul> 
-            
+                </div><!-- end menu -->
+            </div><!-- end cabecera -->
 		
    
-            
+            <div class="area_de_contenido">
                	  <div >Post title one goes here</div>
                     <div >
 						<p><img alt="templatesfree" src="images/thumb_7.jpg" />This is a FREE CSS template provided by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>. You may download, edit and use this template layout for your websites. Credits:  <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://www.digitalia.be/software/slimbox2" target="_blank">Digitalia.be</a> for slimbox2.</p> 						
@@ -192,13 +198,14 @@ function clearText(field)
                 	<h1>Advertisement</h1>
                 	<a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
                 </div>
-                
+              </div><!-- end areaContenido --> 
   
             
 			<div class="cleaner_with_height">&nbsp;</div><!-- /*clear both*/ -->
         <div>
         	Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
         </div>
+    </div><!-- end wrapper -->
       
 </body>
  

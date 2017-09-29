@@ -12,3 +12,16 @@ body{
 	line-height: 1.5em;
 	color: #333333;
 }
+
+a{
+	color: #333;
+}
+
+a:hover{
+	color: #666;
+}
+
+#wrapper{
+	margin: auto;
+	width: 950px;
+}

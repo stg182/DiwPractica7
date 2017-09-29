@@ -29,7 +29,7 @@ a:hover{
 .cleaner{
 	clear: both;
 }
-
+/*********** area de contenido y secciones ************/
 .area_de_contenido{
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -38,14 +38,36 @@ a:hover{
 #left_section{
 	float: left;
 	width: 410px;
+	margin: 0;
 }
 
 #middle_section{
 	float: left;
 	width: 180px;
+	margin: 0;
+	margin-left: 15px;
 }
 
 #right_section{
 	float: right;
 	width: 322px;
+	margin: 0;
+	margin-right: 10px;
 }
+/* *****************end area contenido*********************** */
+
+/************** cabecera ******************/
+
+#logo{
+	float: left;
+	width: 385px;
+	height: 55px;
+}
+
+#search{
+	float: right;
+	width: 320px;
+	height: 70px;
+}
+
+/************* end cabecera *************************/

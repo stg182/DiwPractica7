@@ -25,3 +25,7 @@ a:hover{
 	margin: auto;
 	width: 950px;
 }
+
+.cleaner{
+	clear: both;
+}

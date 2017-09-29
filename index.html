@@ -26,9 +26,11 @@ function clearText(field)
         <div id="logo">
             	<h1>Magazine Style</h1>
                 <h2>new way of thinking for your life</h2>
-           	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
         </div><!-- end logo -->
-            	<div id="search">
+        <div id="search">
+           	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
+        
+            	
                 <form action="index.html" method="post">
     	            	<input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
         	            <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
@@ -49,6 +51,7 @@ function clearText(field)
 		
    
             <div class="area_de_contenido">
+                <div id="left_section">
                	  <div >Post title one goes here</div>
                     <div >
 						<p><img alt="templatesfree" src="images/thumb_7.jpg" />This is a FREE CSS template provided by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>. You may download, edit and use this template layout for your websites. Credits:  <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://www.digitalia.be/software/slimbox2" target="_blank">Digitalia.be</a> for slimbox2.</p> 						
@@ -57,8 +60,9 @@ function clearText(field)
                         
                         <span class="post">Category: <a href="#">Web Design</a></span>
                         <span class="post">Posted on 18:40, 24 December 2024</span>
-
+                    
                     </div>
+                    </div><!-- end left_section -->
               
                 
                 <div >
@@ -97,7 +101,7 @@ function clearText(field)
             
             
   
-            
+                <div id="middle_section">
             	<div>
                 	<h1>Categories</h1>
                 	<ul>
@@ -150,10 +154,10 @@ function clearText(field)
 					<li><a href="#">Pellentesque leo lacus</a></li>
 				</ul>
                 </div>
-            
+                </div><!-- end middle_section -->
             
          
-            
+                <div id="right_section">
             	<div>
                 	<h1>Popular Posts</h1>
                     <h2><a href="#">Quisque dictum pharetra neque</a></h2>
@@ -198,13 +202,14 @@ function clearText(field)
                 	<h1>Advertisement</h1>
                 	<a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
                 </div>
+            </div><!-- end right_section -->
               </div><!-- end areaContenido --> 
   
             
 			<div class="cleaner_with_height">&nbsp;</div><!-- /*clear both*/ -->
-        <div>
+        <div class="footer">
         	Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
-        </div>
+        </div><!-- end footer -->
     </div><!-- end wrapper -->
       
 </body>

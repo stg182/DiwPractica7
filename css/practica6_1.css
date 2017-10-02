@@ -51,6 +51,22 @@ a:hover{
 	margin: 0 13px 10px 0;
 	border: none;
 }
+
+.left_section_box #box_contenido {
+	width: 380px;
+	padding: 15px 15px 0;
+}
+.left_section_box #box_cabecera{
+	width: 395px;
+	height: 20px;
+	background-image: url(images/section_box_top.jpg);
+	background-repeat: repeat-x;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	padding-top: 10px;
+	padding-left: 15px;
+}
 /* ***********end left_section************* */
 #middle_section{
 	float: left;

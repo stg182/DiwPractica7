@@ -64,8 +64,22 @@ a:hover{
 	font-size: 16px;
 	font-weight: bold;
 	color: #666;
-	padding-top: 10px;
-	padding-left: 15px;
+	padding: 10px 0 0 15px;
+}
+
+.left_section_box #box_contenido .post{
+	margin-top: 25px;
+	color: #c60;
+	font-size: 11px;
+}
+
+.left_section_box #box_contenido .post a{
+	color: #c60;
+	text-decoration: none;
+}
+
+.left_section_box #box_contenido .post a:hover{
+	text-decoration: underline; 
 }
 /* ***********end left_section************* */
 #middle_section{

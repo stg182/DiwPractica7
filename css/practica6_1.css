@@ -59,7 +59,7 @@ a:hover{
 .left_section_box #box_cabecera{
 	width: 395px;
 	height: 20px;
-	background-image: url(images/section_box_top.jpg);
+	background-image: url(../images/section_box_top.jpg);
 	background-repeat: repeat-x;
 	font-size: 16px;
 	font-weight: bold;

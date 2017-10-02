@@ -55,10 +55,18 @@ a:hover{
 	margin-right: 10px;
 }
 
-#right_section_box{
+.right_section_box{
 	margin: 0 0 15px;
 	padding: 10px;
 	border: solid 1px #ccc;
+}
+
+.right_section_box h1{
+	color: #c60;
+	text-decoration: underline;
+	font-size: 15px;
+	margin: 0 0 8px;
+	padding: 0;
 }
 /* *****************end area contenido*********************** */
 

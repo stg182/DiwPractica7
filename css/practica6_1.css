@@ -54,6 +54,12 @@ a:hover{
 	margin: 0;
 	margin-right: 10px;
 }
+
+#right_section_box{
+	margin: 0 0 15px;
+	padding: 10px;
+	border: solid 1px #ccc;
+}
 /* *****************end area contenido*********************** */
 
 /************** cabecera ******************/

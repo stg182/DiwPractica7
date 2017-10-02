@@ -34,13 +34,24 @@ a:hover{
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
-
+/* *************left_section************** */
 #left_section{
 	float: left;
 	width: 410px;
 	margin: 0;
 }
 
+.left_section_box{
+	margin: 0 0 15px;
+}
+
+.left_section_box #box_contenido img{
+	display: inline;
+	float: left;
+	margin: 0 13px 10px 0;
+	border: none;
+}
+/* ***********end left_section************* */
 #middle_section{
 	float: left;
 	width: 180px;
@@ -105,6 +116,8 @@ a:hover{
 	margin: 5px 0px 5px;
 }
 /* *****************end right_section******************* */
+/* 
+
 /* *****************end area contenido*********************** */
 
 /************** cabecera ******************/

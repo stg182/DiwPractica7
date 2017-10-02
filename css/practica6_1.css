@@ -118,6 +118,10 @@ a:hover{
 .middle_section_box ul li{
 	margin-bottom: 3px;
 }
+
+.middle_section_box ul li#last{
+	margin-bottom:24px;
+}
 /* ***********end middle_section *************** */
 /**********right_section********************/
 #right_section{

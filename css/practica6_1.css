@@ -98,6 +98,14 @@ a:hover{
 	width: 168px;
 
 }
+
+.middle_section_box h1{
+	color: #c60;
+	text-decoration: underline;
+	font-size: 15px;
+	margin: 0 0 8px;
+	padding: 0;
+}
 /* ***********end middle_section *************** */
 /**********right_section********************/
 #right_section{

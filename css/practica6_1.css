@@ -208,7 +208,14 @@ a:hover{
 	margin-top: 21px;
 	padding: 0;
 }
-
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	display: inline;
+}
 #search{
 	float: right;
 	width: 320px;

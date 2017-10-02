@@ -82,12 +82,23 @@ a:hover{
 	text-decoration: underline; 
 }
 /* ***********end left_section************* */
+
+/* ***********middle_section *************** */
 #middle_section{
 	float: left;
 	width: 180px;
 	margin: 0;
 	margin-left: 15px;
 }
+
+.middle_section_box{
+	margin: 0 0 15px;
+	padding: 10px;
+	border: solid 1px #ccc;
+	width: 168px;
+
+}
+/* ***********end middle_section *************** */
 /**********right_section********************/
 #right_section{
 	float: right;

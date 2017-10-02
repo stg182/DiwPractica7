@@ -47,7 +47,7 @@ a:hover{
 	margin: 0;
 	margin-left: 15px;
 }
-
+/**********right_section********************/
 #right_section{
 	float: right;
 	width: 322px;
@@ -80,6 +80,19 @@ a:hover{
 .right_section_box h2:hover{
 	text-decoration: underline;
 }
+
+.right_section_box p{
+	color: #333;
+	font-size: 11px;
+	text-align: justify;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.right_section_box p.last{
+	margin: 0;
+}
+/* *****************end right_section******************* */
 /* *****************end area contenido*********************** */
 
 /************** cabecera ******************/

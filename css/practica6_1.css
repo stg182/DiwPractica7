@@ -216,6 +216,15 @@ a:hover{
 #menu li{
 	display: inline;
 }
+#menu li a{
+	float: left;
+	width: 110px;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	color: #8A4500;
+}
 #search{
 	float: right;
 	width: 320px;

@@ -253,8 +253,45 @@ a:hover{
 	float: right;
 	width: 320px;
 	height: 70px;
+	margin: 30px 20px 0 0;
 }
 
+#search form{
+	float: right;
+	width: 330px;
+	margin: 10px 0 0;
+	
+}
+#search img{
+	float: right;
+	margin: 0 -7px 0 0;
+}
+
+#textfield{
+	float: left;
+	width: 240px;
+	height: 16px;
+	background: #fff;
+	color: #999;
+	border: solid 1px #999;
+	margin: 0;
+	padding: 5px 5px;
+}
+
+#button{
+	float: right;
+	border: solid 1px #999;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	white-space: pre;
+	width: 70px;
+	height: 28px;
+	color: #999;
+	background: #fff;
+	margin: 0;
+	padding: 4px 0 5px;
+}
 /************* end cabecera *************************/
 /* *************footer************* */
 

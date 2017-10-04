@@ -224,7 +224,15 @@ a:hover{
 	text-decoration: none;
 	text-align: center;
 	color: #8A4500;
+	padding:8px 0 0;
 }
+
+#menu li a:hover,.current{
+	color: #fff;
+	height: 26px;
+	background-color: #cc6601;
+}
+
 #search{
 	float: right;
 	width: 320px;

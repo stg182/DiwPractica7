@@ -197,8 +197,24 @@ a:hover{
 	width: 385px;
 	height: 55px;
 	margin-top: 25px;
-	padding: 20px 25px 0 0;
+	padding: 20px 0 0 25px;
 	background-image: url(../images/logo_bg.jpg);
+}
+
+#logo h1,#logo h2{
+	font-weight: normal;
+	margin: 0;
+	color: #666;
+}
+
+#logo h1{
+	font-size: 24px;
+	padding: 0;
+}
+
+#logo h2{
+	font-size: 14px;
+	padding: 10px 0 0;
 }
 
 #menu{
@@ -240,3 +256,14 @@ a:hover{
 }
 
 /************* end cabecera *************************/
+/* *************footer************* */
+
+.footer{
+	height: 29px;
+	background-image: url(../images/footer_bg.jpg);
+	font-family: Verdana;
+	text-align: center;
+	font-size: 11px;
+	padding: 20px 0 0;
+	color: #666;
+}

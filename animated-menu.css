@@ -5,11 +5,12 @@
 #animated-menu ul{
 	margin:0;
 	padding:0;
+	width: 950px;
 }
 
 #animated-menu li{
-	width:100px;
-	height:50px;
+	width:121px;
+	height:34px;
 	float:left;
 	color:#191919;
 	text-align:center;

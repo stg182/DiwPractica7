@@ -1,4 +1,7 @@
-
+#animated-menu{
+	position: absolute;
+	margin: 121px auto 0px;
+}
 #animated-menu ul{
 	margin:0;
 	padding:0;

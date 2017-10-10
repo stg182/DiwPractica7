@@ -3,12 +3,12 @@ body{
 	background:#F3F3F3;
 }
 
-ul{
+#animated-menu ul{
 	margin:0;
 	padding:0;
 }
 
-li{
+#animated-menu li{
 	width:100px;
 	height:50px;
 	float:left;
@@ -17,12 +17,12 @@ li{
 	overflow:hidden;
 }
 
-a{
+#animated-menu a{
 	color:#FFF;
 	text-decoration:none;
 }
 
-p{
+#animated-menu p{
 	padding:0px 5px;
 }
 

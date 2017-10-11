@@ -36,3 +36,11 @@
 .red{background:#D52100 url('images/red-item-bg.jpg') top left no-repeat;}
 .purple{background:#5122B4 url('images/purple-item-bg.jpg') top left no-repeat;}
 .blue{background:#0292C0 url('images/blue-item-bg.jpg') top left no-repeat;}
+.other{
+	background: #cc6601;
+	/* color: #8A4500; */
+}
+
+#animated-menu a:first-child{
+	color: #8A4500;
+}

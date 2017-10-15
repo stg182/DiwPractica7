@@ -244,7 +244,7 @@ a:hover{
 	padding:8px 0 0;
 }
 
-#menu li a:hover,.current{
+#menu li a:hover,#menu .current{
 	color: #fff;
 	height: 26px;
 	background-color: #cc6601;

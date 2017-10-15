@@ -2,32 +2,43 @@
 	position: absolute;
 	margin: 121px auto 0px;
 }
+
+#animated-menu .current{
+	color: #fff;
+	height: 26px;
+	background-color: #cc6601;
+}
+
 #animated-menu ul{
 	margin:0;
 	padding:0;
 	width: 950px;
+	list-style: none;
 }
 
 #animated-menu li{
-	width:121px;
+	width:125px;
 	height:34px;
 	float:left;
 	color:#191919;
 	text-align:center;
 	overflow:hidden;
+	margin-right: 10px;
 }
 
 #animated-menu a{
-	color:#FFF;
+	color: #8A4500;
 	text-decoration:none;
+	font-weight: bold;
 }
 
 #animated-menu p{
 	padding:0px 5px;
 }
 
-	#animated-menu .subtext{
+	#animated-menu a .subtext{
 		padding-top:15px;
+
 	}
 
 /*Menu Color Classes*/
@@ -38,9 +49,9 @@
 .blue{background:#0292C0 url('images/blue-item-bg.jpg') top left no-repeat;}
 .other{
 	background: #cc6601;
-	/* color: #8A4500; */
+	
 }
 
-#animated-menu a:first-child{
+/* #animated-menu a:first-child{
 	color: #8A4500;
-}
+} */

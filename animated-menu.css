@@ -8,6 +8,9 @@
 	height: 26px;
 	background-color: #cc6601;
 }
+#animated-menu li.other>p>a:hover{
+	color: #fff;
+}
 
 #animated-menu ul{
 	margin:0;
@@ -26,7 +29,7 @@
 	margin-right: 10px;
 }
 
-#animated-menu a{
+#animated-menu li a{
 	color: #8A4500;
 	text-decoration:none;
 	font-weight: bold;
@@ -34,12 +37,21 @@
 
 #animated-menu p{
 	padding:0px 5px;
+
 }
 
-	#animated-menu a .subtext{
-		padding-top:15px;
-
+	#animated-menu ul.subtext{
+		/* padding-top:15px;
+		 */
+		 width: 125px;
+		 margin: 0;
 	}
+
+	#animated-menu .subtext a{
+		color: black;
+		font-weight: normal;
+	}
+
 
 /*Menu Color Classes*/
 .green{background:#6AA63B url('images/green-item-bg.jpg') top left no-repeat;}

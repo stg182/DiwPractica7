@@ -8,12 +8,12 @@ $(document).ready(function(){
 	});
 	
 	//When mouse rolls over
-	$("#animated-menu li").mouseover(function(){
+	$("#animated-menu>ul>li").mouseover(function(){
 		$(this).stop().animate({height:'150px'},{queue:false, duration:600, easing: 'easeOutBounce'})
 	});
 	
 	//When mouse is removed
-	$("#animated-menu li").mouseout(function(){
+	$("#animated-menu>ul>li").mouseout(function(){
 		$(this).stop().animate({height:'34px'},{queue:false, duration:600, easing: 'easeOutBounce'})
 	});
 	

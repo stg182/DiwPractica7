@@ -313,6 +313,21 @@ a:hover{
 	height: 32px;
 	width: 32px;
 }
+#google{
+	background: url("../images/icons/google-plus.png")no-repeat;
+}
+#facebook{
+	background: url("../images/icons/facebook.png")no-repeat;
+}
+#instagram{
+	background: url("../images/icons/instagram.png")no-repeat;
+}
+#youtube{
+	background: url("../images/icons/youtube.png")no-repeat;
+}
+#twitter{
+	background: url("../images/icons/twitter.png")no-repeat;
+}
 /************* end cabecera *************************/
 /* *************footer************* */
 

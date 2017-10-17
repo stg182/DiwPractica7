@@ -307,6 +307,7 @@ a:hover{
 }
 #icons li{
 	display: inline;
+	float: left;
 }
 #icons li a{
 	display: block;
@@ -316,17 +317,32 @@ a:hover{
 #google{
 	background: url("../images/icons/google-plus.png")no-repeat;
 }
+#google:hover{
+	background: url("../images/icons/google-plus-n.png")no-repeat;
+}
 #facebook{
 	background: url("../images/icons/facebook.png")no-repeat;
+}
+#facebook:hover{
+	background: url("../images/icons/facebook-n.png")no-repeat;
 }
 #instagram{
 	background: url("../images/icons/instagram.png")no-repeat;
 }
+#instagram:hover{
+	background: url("../images/icons/instagram-n.png")no-repeat;
+}
 #youtube{
 	background: url("../images/icons/youtube.png")no-repeat;
 }
+#youtube:hover{
+	background: url("../images/icons/youtube-n.png")no-repeat;
+}
 #twitter{
 	background: url("../images/icons/twitter.png")no-repeat;
+}
+#twitter:hover{
+	background: url("../images/icons/twitter-n.png")no-repeat;
 }
 /************* end cabecera *************************/
 /* *************footer************* */

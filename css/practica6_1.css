@@ -320,48 +320,52 @@ a:hover{
 #google{
 	/* background: url("../images/icons/google-plus.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: -32px 0;  /*primer valor eje x,segundo y.Si va hacia la derecha valor negativo(eje x).Si va hacia abajo en positivo(eje y)*/
+	background-position: -32px 0;  /*primer valor eje x,segundo y.Si va hacia la derecha valor negativo(eje x).Si va hacia abajo en negativo(eje y)*/
 }
 #google:hover{
 	/* background: url("../images/icons/google-plus-n.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
+	background-position: -32px -32px;
 }
 #facebook{
 	/* background: url("../images/icons/facebook.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
+	background-position: 0 0;
 }
 #facebook:hover{
 	/* background: url("../images/icons/facebook-n.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
+	background-position: 0 -32px;
 }
 #instagram{
 	/* background: url("../images/icons/instagram.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
+	background-position: -96px 0;
 }
 #instagram:hover{
 	/* background: url("../images/icons/instagram-n.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: 
+	background-position: -96px -32px;
 }
 #youtube{
 	/* background: url("../images/icons/youtube.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: 
+	background-position: -64px 0;
 }
 #youtube:hover{
 	/* background: url("../images/icons/youtube-n.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: 
+	background-position: -64px -32px;
 }
 #twitter{
 	/* background: url("../images/icons/twitter.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: 
+	background-position: -128px 0px;
 }
 #twitter:hover{
 	/* background: url("../images/icons/twitter-n.png")no-repeat; */
 	background: url("../images/icons/sprite.png");
-	background-position: 
+	background-position: -128px -32px;
 }
 /************* end cabecera *************************/
 /* *************footer************* */
